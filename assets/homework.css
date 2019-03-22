@@ -1,0 +1,31 @@
+p {
+    line-height: 2;
+    margin: 15px 0;
+}
+
+.content-homework {
+    padding: 15px;
+    margin: 30px auto;
+    width: 65%;
+}
+
+@media only screen and (max-width: 768px) {
+    .content-homework {
+        padding: 10px;
+        margin: 20px auto;
+        width: 90%;
+    }
+}
+
+.thumbnail {
+    width: 100%;
+    margin: 40px 0;
+}
+
+.image {
+    width: 100%;
+    margin: 30px auto;
+    display: block;
+    border: 1px solid #ccc;
+}
+
