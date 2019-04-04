@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="style_1.css">
+</head>
+
+<body>
+
+	<div class="container wrapper">
+		<div id="top">
+			<h1>Welcome to My Homepage</h1>
+			<p>Use the menu to select different MS programs at SIT</p>
+		</div>
+
+		<div class="wrapper">
+			<div id="menubar">
+				<ul id="menulist">
+					<li class="menuitem">
+						<a href="index.html">Stylesheet 1</a>
+					</li>
+					<li class="menuitem">
+						<a href="homepage_style2.html">Stylesheet 2</a>
+					</li>
+					<li class="menuitem">
+						<a href="homepage_style3.html">Stylesheet 3</a>
+					</li>
+					<li class="menuitem">
+						<a href="homepage_style4.html">Stylesheet 4</a>
+					</li>
+				</ul>
+			</div>
+
+			<div id="main">
+				<h1>Same Page Different Stylesheets</h1>
+				<p>This is a demonstration of how different stylesheets can change the layout of your HTML page.</p>
+				<p>You can see more information about the Master programs at SIT from the links below:
+					<br>
+				</p>
+				<div style="
+					display: flex;
+					flex-direction: row;
+				">
+					<a href="https://www.sit.kmutt.ac.th/msc-it/" style="padding: 5px;">
+						<div style="text-align: center;">
+							<img src="img/msc-it.png" alt="MSc.IT." style="width: 100%;">
+							<p>MSC.IT</p>
+						</div>
+					</a>
+					<a href="https://www.sit.kmutt.ac.th/msc-bis/" style="padding: 5px;">
+						<div style="text-align: center;">
+							<img src="img/msc-bis.png" alt="MSc.BIS." style="width: 100%">
+							<p>MSc.BIS</p>
+						</div>
+					</a>
+					<a href="https://www.sit.kmutt.ac.th/msc-se/" style="padding: 5px;">
+						<div style="text-align: center;">
+							<img src="img/msc-sw.png" alt="MSc.SWE." style="width: 100%">
+							<p>MSc.SWE</p>
+
+						</div>
+					</a>
+					<a href="https://www.sit.kmutt.ac.th/msc-cs/" style="padding: 5px;">
+						<div style="text-align: center;">
+							<img src="img/msc-cs.png" alt="MSc.CS." style="width: 100%">
+							<p>MSc.CS</p>
+
+						</div>
+					</a>
+				</div>
+				<div style="
+					display: flex;
+					flex-direction: row;
+				">
+					<a href="https://www.sit.kmutt.ac.th/msc-it/" style="padding: 5px; text-align :right; display: block;">
+						<span>MSC.IT</span>
+
+						<div style="display:inline;">
+							<img src="img/msc-it.png" alt="MSc.IT." style="width: 50%; height: 150px">
+						</div>
+					</a>
+
+					<a href="https://www.sit.kmutt.ac.th/msc-cs/" style="padding: 5px; display: block;">
+						<div style="display:inline">
+							<img src="img/msc-cs.png" alt="MSc.CS." style="width: 50%;height: 150px">
+
+						</div>
+						<span>MSC.CS</span>
+
+					</a>
+				</div>
+				<div style="display: flex; flex-direction: row;">
+					<a href="https://www.sit.kmutt.ac.th/msc-se/" style="padding: 5px;text-align:right; display: block;">
+						<span>MSC.SWE</span>
+
+						<div style="display:inline;">
+							<img src="img/msc-sw.png" alt="MSc.SWE." style="width: 50%;height: 150px">
+						</div>
+					</a>
+					<a href="https://www.sit.kmutt.ac.th/msc-bis/" style="padding: 5px; display: block;">
+						<div style="display:inline">
+							<img src="img/msc-bis.png" alt="MSc.BIS." style="width: 50%;height: 150px">
+						</div>
+						<span>MSC.BIS</span>
+
+					</a>
+				</div>
+				<h2>Answer the following questions</h2>
+				<div id="qarea">
+					<ol id="qlist">
+						<li class="qitem">What did you do the apply the CSS style onto the given html contents?
+							<p>
+								<u>Ans</u> ทำการใส่ link stylesheet ที่เป็นการ import external file เข้าไปในแต่ละ webpage โดยแยกเป็นแต่ละ style</p>
+						</li>
+						<li class="qitem">What did you do to make Thai text shown correctly?
+							<p>
+								<u>Ans</u> เปลี่ยน &ltmeta http-equiv="content-type" content="text/html; charset=windows-1252"&gt
+								<br/> &nbsp&nbsp&nbsp&nbspเป็น &ltmeta http-equiv="content-type" content="text/html; charset=UTF-8"&gt</p>
+						</li>
+						<li class="qitem">What did you do to make the question and the corresponding answer appear as shown in the example?
+							<p>
+								<u>Ans</u> ใช้ html Element &ltp&gt &ltu&gt และ Special Charactor ในการประกอบเนื้อหาเข้าด้วยกัน โดยทั้งหมดนี้จะต้องอยู่ภายใต้
+								<br/> &nbsp&nbsp&nbsp&nbsphtml Element &ltol&gt หากต้องการเพิ่มข้อคำถามและคำตอบ ให้เพิ่ม html Element &ltli&gt </p>
+						</li>
+						<li class="qitem">How was the stylesheet option selected correctly for each page?
+							<p>
+								<u>Ans</u> Link stylesheet ให้ถูกต้อง โดยดูจากชื่อ และ content css ภายในไฟล์นั้นว่า html Element แต่ละตัวมีการใส่ไว้อย่างไร</p>
+						</li>
+						<li class="qitem">What did you do to make the images laid out in one row like in the example?
+							<p>
+								<u>Ans</u> ใช้style="display: flex; flex-direction: row;โดยมีการจัดให้อยู่กึ่งกลางโดยใช้ align เป็น center</p>
+						</li>
+						</ul>
+				</div>
+			</div>
+
+			<div id="sidebar">
+				<h3>Side-Bar SIT</h3>
+				<p>คณะเทคโนโลยีสารสนเทศ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรีถือกำเนิดขึ้นในปี พ.ศ. 2538 โดยเป็นสถาบันการศึกษาแห่งแรกที่เปิดสอนหลักสูตรเทคโนโลยีสารสนเทศโดยตรง</p>
+			</div>
+		</div>
+
+
+		<div id="bottom">
+			<h4>SIT’s VISION</h4>
+			The Leading IT School in Thailand with Best Practice in Teaching and Learning, Research, and Academic Services
+			<br> เป็นคณะเทคโนโลยีสารสนเทศชั้นนำของประเทศที่มีความสมดุลในด้านการเรียนการสอน การวิจัย และบริการวิชาการ ที่สอดคล้องกับบริบทของประเทศ
+		</div>
+	</div>
+
+</body>
+
+</html>
