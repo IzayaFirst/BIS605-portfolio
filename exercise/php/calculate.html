@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+<h2>My GPAX Calculator</h2>
+
+<form method="POST" action="calculate.php">
+  <label>My current GPAX: </label>
+  <input type="number" value="3.00" id="gpax">
+  <label class="title-gpax">Program:</label>
+  <input type="radio" name="program" value="BIS" checked> BIS
+  <input type="radio" name="program" value="IT"> IT
+  <input type="radio" name="program" value="SWE"> SWE
+  <div class="course-semester">
+  	<h4 class="semester-title">Courses This Semester</h4>
+  	<label>1. </label>
+  	<input type="text" name="course_num_1" value="BISxxx" class="w-5">
+  	<input type="text" name="course_name_1" value="Course name here" class="padding-form">
+  	<select class="select-grade" name="score_1">
+  		<option>4</option>
+  		<option>3</option>
+  		<option>2</option>
+  		<option>1</option>
+  		<option>0</option>
+  	</select>
+  	<br>
+  	<label>2. </label>
+  	<input type="text" name="course_num_2" value="BISxxx" class="w-5">
+  	<input type="text" name="course_name_2" value="Course name here" class="padding-form">
+  	<select class="select-grade" name="score_2">
+  		<option>4</option>
+  		<option>3</option>
+  		<option>2</option>
+  		<option>1</option>
+  		<option>0</option>
+  	</select>
+  	<br>
+  	<label>3. </label>
+  	<input type="text" name="course_num_3" value="BISxxx" class="w-5">
+  	<input type="text" name="course_name_3" value="Course name here" class="padding-form b-10">
+  	<select class="select-grade" name="score_3">
+  		<option>4</option>
+  		<option>3</option>
+  		<option>2</option>
+  		<option>1</option>
+  		<option>0</option>
+  	</select>
+  </div>
+  <button type="submit">Submit</button>
+</form> 
+
+</body>
+</html>

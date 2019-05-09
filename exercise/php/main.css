@@ -1,0 +1,39 @@
+#gpax {
+	text-align: center; 
+	width: 5em;
+}
+
+.title-gpax {
+	padding-left: 50px;
+}
+.course-semester {
+	padding-left: 10px;
+	margin: 30px 0px; 
+	border: 2px solid blue; 
+	border-radius: 5px; 
+	width:60%;
+	min-width: 500px;
+}
+
+.semester-title {
+	margin: 10px 0px;
+}
+
+.w-5 {
+	width: 5em;
+}
+
+.b-10 {
+    margin-bottom: 10px;
+}
+
+.padding-form {
+	padding-left: 10px; 
+	margin-left: 5px; 
+	width:15em;
+}
+
+
+.select-grade {
+	padding-left: 20px; margin-left: 50px;
+}
